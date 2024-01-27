@@ -8,9 +8,13 @@
     --bg-color-second: #121212; 
     --bg-color-third: #242424; 
     --bg-color-button: #fff; 
-
+    --bg-icon: #131313; 
+    --bg-arrow-color: rgba(0,0,07);
+    
     /* FONT COLOR */ 
     --primary-text-color: #b3b3b3; 
     --light-text-color: #fff; 
-    --dark-text-color: #000;
+    --dark-text-color: #000;  
+    --login-color: #a7a7a7; 
+
 }
