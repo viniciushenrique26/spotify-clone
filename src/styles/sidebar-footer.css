@@ -1,12 +1,12 @@
 
 
 body {
-    background-color: #000; 
-    font-family: 'Gotham', sans-serif;
+    background-color: var(--bg-color-primary); 
+    font-family: var(--font-gotham);
 } 
 
 h1 { 
-    color: #fff;
+    color: var(--light-text-color);
 }  
 
 .sidebar {
@@ -19,13 +19,13 @@ h1 {
 }
 
 .sidebar__navigation {
-    background-color: #121212; 
+    background-color: var(--bg-color-second); 
     border-radius: 8px; 
     padding: 16px 0 0 0;
 } 
 
 .logo {
-    background-color: #121212; 
+    background-color: var(--bg-color-second); 
     display: flex; 
     border-radius: 8px; 
     padding: 16px 0 0 16px;
@@ -47,24 +47,23 @@ h1 {
 }
 
 .sidebar nav ul li a {
-    color: #b3b3b3;
+    color: var(--primary-text-color);
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: 'Gotham', sans-serif;
 } 
 
 
 /* LIBRARY */ 
 
 .library {
-    background-color: #121212; 
+    background-color: var(--bg-color-second); 
     border-radius: 8px; 
     display: flex; 
     justify-content: space-between;  
     flex-direction: column; 
     padding: 4px 8px; 
-    color: #b3b3b3; 
+    color: var(--primary-text-color); 
     font-weight: 600; 
     font-size: 14px; 
     margin-top: 10px; 
@@ -79,7 +78,7 @@ h1 {
 .library .library__button {
     display: flex; 
     margin-right: 10px; 
-    color: #b3b3b3; 
+    color: var(--primary-text-color);
     background-color: transparent; 
     border: 0; 
     font-size: 14px; 
@@ -106,8 +105,8 @@ h1 {
     align-items: flex-start; 
     justify-content: space-between; 
     gap: 20px;
-    background-color: #242424;  
-    color: #b3b3b3; 
+    background-color: var(--bg-color-third);  
+    color: var(--primary-text-color);
     font-weight: 600;
     font-size: 14px; 
     margin: 8px 0;
@@ -124,7 +123,7 @@ h1 {
 
 .section-playlist__content .text {
     padding-bottom: 14px; 
-    color: #fff; 
+    color: var(--light-text-color); 
 } 
 
 .section-playlist__content  .title {
@@ -139,8 +138,8 @@ h1 {
 .section-playlist__content .section-playlist__button {
     display: flex;
     justify-content: center;
-    background-color: #fff; 
-    color: #000; 
+    background-color: var(--bg-color-button); 
+    color: var(--dark-text-color); 
     border-radius: 20px; 
     font-size: 12px; 
     font-weight: 700; 
@@ -154,8 +153,8 @@ h1 {
 .section-playlist__button__podcasts {
     display: flex;
     justify-content: center;
-    background-color: #fff; 
-    color: #000; 
+    background-color: var(--bg-color-button); 
+    color: var(--dark-text-color); 
     border-radius: 20px; 
     font-size: 12px; 
     font-weight: 700; 
@@ -175,7 +174,7 @@ h1 {
 
 .sidebar .cookies a { 
 
-    color: #b3b3b3; 
+    color: var(--primary-text-color);
     font-weight: 500; 
     font-size: 10px; 
     text-decoration: none;
@@ -189,7 +188,7 @@ h1 {
     align-items: center;  
     background-color: transparent; 
     border: 1px solid #878787; 
-    color: #fff;  
+    color: var(--light-text-color);  
     font-weight: bold; 
     cursor: pointer;  
     width: 10em; 
@@ -214,21 +213,21 @@ h1 {
    flex-shrink: 0;
 }
 .disclaimer-premium .disclaimer-premium__title {
-    color: #ffffff;
+    color: var(--light-text-color);
     font-weight: 700;
     font-size: 14px;
     margin-bottom: 10px;
 }
 
 .disclaimer-premium .disclaimer-premium__subtitle {
-    color: #ffffff;
+    color: var(--light-text-color);
     font-size: 15px;
     font-weight: 400;
 }
 
 .disclaimer-premium button {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: var(--bg-color-button);
+    color: var(--dark-text-color);
     font-size: 16px;
     font-weight: bold;
     padding: 14px 30px;
