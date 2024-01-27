@@ -1,79 +1,108 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify Clone</title>   
-    
+    <title>Spotify Clone</title>
+
     <!-- CSS -->
     <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="styles.css">  
-    
+    <link rel="stylesheet" href="./styles.css">
+
     <!-- FONT -->
-    <link rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">  
+    <link
+        rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
 
     <!-- ICONS -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css">
 </head>
+
 <body>
     <div class="sidebar">
-        <nav class="sidebar__navigation">
-           <div class="logo">
-                <a href="">
-                    <img src="./assets/icons/logo-spotify.png" alt="spotify brand">
-                </a> 
-            </div>
+        <div class="sidebar">
+            <nav class="sidebar__navigation">
+                <div class="logo">
+                    <a href="">
+                        <img src="./assets/icons/logo-spotify.png" alt="Logo" />
+                    </a>
+                </div>
                 <ul>
                     <li>
-                        <a href=""> 
+                        <a href="">
                             <span class="fa fa-home"></span>
-                            <span>Início</span> 
+                            <span>Home</span>
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <span class="fa fa-search"></span> 
-                            <span>Buscar</span>
+                            <span class="fa fa-search"></span>
+                            <span>Search</span>
                         </a>
                     </li>
                 </ul>
-           </div> 
-        </nav>   
-        
-        <div class="library">
-            <div class="library__content">
-                <button class="library__button">
-                    <span class="fa fas fa-book"></span> 
-                    <span>Your library</span>
-                </button> 
-                <span class="fa fa-plus"></span>
-            </div> 
+            </nav>
+            <div class="library">
+                <div class="library__content">
+                    <button class="library__button">
+                        <span class="fa fas fa-book"></span>
+                        <span>Your library</span>
+                    </button> 
 
-            <section class="section-playlist">
-                <div class="section-playlist__content">
-                    <span class="text title">Create your first playlist</span> 
-                    <span class="text subtitle">It's easy, we will help you</span> 
-                    <button class="section-playlist__button">
-                        <span>Create playlist</span>
+                    <div class="library__options">
+                        <span class="fa fa-plus"></span> 
+                    </div>
+                </div>
+
+                <section class="section-playlist">
+                    <div class="section-playlist__content">
+                        <span class="text title">Create your first playlist</span>
+                        <span class="text subtitle">It's easy, we will help you</span>
+                        <button class="section-playlist__button">
+                            <span>Create playlist</span>
+                        </button>
+                    </div>
+                </section> 
+                <section class="section-playlist">
+                    <div class="section-playlist__content">
+                        <span class="text title">Let's find some podcasts to follow</span>
+                        <span class="text subtitle">We'll keep you updated on new episodes.</span>
+                        <button class="section-playlist__button__podcasts">
+                            <span>Browse podcasts</span>
+                        </button>
+                    </div>
+                </section>
+
+                <div class="cookies">  
+                    <a href="">Cookies</a>
+                </div>
+
+                <div class="languages">
+                    <button class="languages__button">
+                        <span class="fa fa-globe"></span>
+                        <span>English</span>
                     </button>
                 </div>
-            </section> 
-
-            <div class="cookies">
-                <a href="">Cookies</a>
-            </div> 
-
-            <div class="languages">
-                <button class="languages__button">
-                    <span class="fa fa-globe"></span> 
-                    <span>English</span>
-                </button>
             </div>
-        </div> 
+    </div>
+    
 
 
-    </div> 
 
+    </div>
+
+    <footer class="disclaimer-premium">
+        <div class="text">
+                <p class="disclaimer-premium__title">Preview of Spotify</p> 
+                <p class="disclaimer-premium__subtitle">Sign up to enjoy unlimited songs and podcasts with ocacasional ads. No credit card needed.</p>
+            </div> 
+            <div class="button">
+                <button type="button">Sign up free</button>
+            </div>
+        </div>
+    </footer>
+    
 </body>
+
 </html>
