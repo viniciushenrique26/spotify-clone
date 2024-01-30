@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify Clone</title>
+    <title>Spotify Clone</title> 
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/1982px-Spotify_icon.svg.png" type="image/x-icon">
 
     <!-- CSS -->
     <link rel="stylesheet" href="./src/styles/reset.css"> 
     <link rel="stylesheet" href="./src/styles/vars.css">
     <link rel="stylesheet" href="./src/styles/sidebar-footer.css">  
-    <link rel="stylesheet" href="./src/styles/main-content.css">
+    <link rel="stylesheet" href="./src/styles/main-content.css"> 
+    <link rel="stylesheet" href="./src/styles/media-queries.css">
 
 
     <!-- FONT -->
@@ -121,7 +123,7 @@
                     </div>
                     <div class="header__search">
                         <img src="./src/assets/icons/search.png" alt="">
-                        <input  id="seach-input" type="text" max-lenght="800" placeholder="What do you want to hear?"/>
+                        <input  id="search-input" type="text" max-lenght="800" placeholder="What do you want to hear?"/>
                     </div> 
                     <div class="header__login">
                         <button class="subscribe">
@@ -133,12 +135,12 @@
                     </div>    
             </nav>
             <div class="playlist-container">  
-                <div class="result-playlists"> 
+                <div class="result-playlists" id="result-playlists"> 
                     <div class="playlist"> 
                         <h1 id="greeting">Good Morning</h1> 
                         <h2 class="session">Spotify Playlists</h2>
                     </div> 
-
+                    
                     <div class="offer__scroll-container">
                         <div class="offer__list">
                             <section class="offer__list-item">
@@ -147,7 +149,7 @@
                                 <a href="" class="cards"> 
                                     <div class="cards card1"> 
                                         <img src="./src/assets/playlist/1.jpeg" alt=""> 
-                                        <span>Happy Holidays</span>
+                                        <span>Happy Holidays</span> 
                                     </div>
                                 </a>
 
@@ -278,9 +280,9 @@
                                 </div>
                             </div>
                             <div class="card-text">
-                                <a title="Foo Fighters" class="vst" href=""></a>
+                                <a title="Zeca Pagodinho" class="vst" href=""></a>
                                 <span class="artist-name" id="artist-name"></span>
-                                <span class="artist-categorie">Performer</span>
+                                <span class="artist-categorie">Artist</span>
                                 </a>
                             </div>
                         </div>
@@ -307,6 +309,10 @@
         </div>
     </footer>
     
+
+
+    <!-- SCRIPT --> 
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
