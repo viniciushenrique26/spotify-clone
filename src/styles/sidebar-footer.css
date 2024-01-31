@@ -71,7 +71,8 @@ h1 {
 
 .library .library__content {
     display: flex; 
-    justify-content: space-between;     
+    justify-content: space-between;    
+    align-items: center;  
     
 } 
 
@@ -97,7 +98,7 @@ h1 {
 } 
 
 .library .library__content .fa-plus{
-    margin: 24px 10px; 
+    margin: 10px; 
 } 
 
 .section-playlist { 
@@ -164,6 +165,38 @@ h1 {
     margin-top: 12px;
     border: 0; 
     width: 123px; 
+} 
+.sidebar__navigation ul li a:hover {
+ color: #FFF; 
+ transition: .1s ease-in;
+} 
+
+.library__button:hover {
+    color: #FFF; 
+    transition: .1s ease-in;
+} 
+
+
+.library__options:hover {
+    color: #FFF; 
+    transition: .5ms ease; 
+    background-color: var(--bg-color-third); 
+    border-radius: 50px;  
+
+    
+}  
+
+.section-playlist__button:hover,.section-playlist__button__podcasts:hover {
+    transform: translate(0px, 0px) scale(1.1, 1.1);
+    transition: transform .5s ease-out; 
+} 
+.subscribe {
+    color: #FFF; 
+    transition: .1s ease-in;
+} 
+.login {
+    transform: translate(0px, 0px) scale(1.1, 1.1);
+    transition: transform .5s ease-out; 
 }
 
 .sidebar .cookies { 

@@ -1,3 +1,6 @@
+
+
+
 const resultArtist = document.getElementById("result-artist");
 const playlistContainer = document.getElementById("result-playlists");
 const searchInput = document.getElementById("search-input");
@@ -58,10 +61,10 @@ const currentHour = new Date().getHours();
 // Forma mais simples
 const greetingMessage =
   currentHour >= 5 && currentHour < 12
-    ? "Bom dia"
+    ? "Good Morning"
     : currentHour >= 12 && currentHour < 18
-    ? "Boa tarde"
-    : "Boa noite";
+    ? "Good Afternoon"
+    : "Good Evening";
 
 greetingElement.textContent = greetingMessage;
 
